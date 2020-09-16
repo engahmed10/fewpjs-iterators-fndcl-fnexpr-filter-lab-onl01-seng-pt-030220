@@ -1,6 +1,7 @@
 // Code your solution here
 
 
+<<<<<<< HEAD
     function findMatching(drivers,name) {
 
        return drivers.filter(n => { return n.toUpperCase() === name.toUpperCase()})
@@ -22,3 +23,10 @@ function matchName(drivers,name){
 
 
 }
+=======
+    findMatching(drivers,name) {
+
+       drivers.filter(n => return n === name)
+
+    }
+>>>>>>> 262f5bcb4e521f879acf1099c23f759580bc8718
